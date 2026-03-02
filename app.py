@@ -142,6 +142,7 @@ st.markdown("---")
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("## Your Numbers")
+    st.button("🔄 Update Results", use_container_width=True)
 
     st.markdown("### Business Income")
     business_net = st.number_input(
@@ -149,7 +150,6 @@ with st.sidebar:
         value=120_000,
         min_value=0,
         step=5_000,
-        format="%d",
         help="Profit after expenses",
     )
     biz_expenses = st.number_input(
@@ -157,7 +157,6 @@ with st.sidebar:
         value=20_000,
         min_value=0,
         step=1_000,
-        format="%d",
         help="Expenses used to arrive at net income",
     )
 
@@ -171,7 +170,6 @@ with st.sidebar:
         value=0,
         min_value=0,
         step=5_000,
-        format="%d",
     )
 
     st.markdown("### S-Corp Settings")
@@ -180,7 +178,6 @@ with st.sidebar:
         value=60_000,
         min_value=0,
         step=5_000,
-        format="%d",
         help="Must be 'reasonable' per IRS — typically 30–50% of profit",
     )
 
@@ -195,14 +192,12 @@ with st.sidebar:
         value=6_000,
         min_value=0,
         step=500,
-        format="%d",
     )
     retirement = st.number_input(
         "Retirement contribution ($)",
         value=20_000,
         min_value=0,
         step=1_000,
-        format="%d",
         help="SEP-IRA (max 25%) or Solo 401k",
     )
     qbi_eligible = st.checkbox(
