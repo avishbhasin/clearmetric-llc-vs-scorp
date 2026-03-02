@@ -424,14 +424,14 @@ st.markdown("""
 <div class="cta-box">
     <h3 style="color: white; margin: 0 0 8px 0;">Get the Full Excel Calculator</h3>
     <p style="margin: 0 0 16px 0;">
-        <strong>ClearMetric LLC vs S-Corp Calculator</strong> — $16.99<br>
+        <strong>ClearMetric LLC vs S-Corp Calculator</strong> — $12.99<br>
         ✓ Side-by-side LLC vs S-Corp comparison<br>
         ✓ Break-even analysis ($50K–$300K income)<br>
         ✓ All inputs editable, formulas included<br>
         ✓ How To Use guide
     </p>
-    <a href="https://clearmetric.gumroad.com" target="_blank">
-        Get It on Gumroad — $16.99 →
+    <a href="https://clearmetric.gumroad.com/l/llc-vs-scorp" target="_blank">
+        Get It on Gumroad — $12.99 →
     </a>
 </div>
 """, unsafe_allow_html=True)
@@ -443,19 +443,19 @@ with cx1:
     st.markdown("""
     **📋 Side Hustle Tax Estimator** — $12.99
     Estimate tax liability for freelance, Etsy, Uber income.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/side-hustle-tax)
     """)
 with cx2:
     st.markdown("""
     **📊 Freelancer Tax Planner** — $14.99
     Quarterly estimates, deductions, SE tax, full-year projection.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/freelancer-tax-planner)
     """)
 with cx3:
     st.markdown("""
     **💰 Budget Planner** — $13.99
     Track income, expenses, savings with 50/30/20 framework.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/budget-planner)
     """)
 
 # Footer
