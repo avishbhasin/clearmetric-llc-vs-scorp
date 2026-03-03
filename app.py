@@ -437,7 +437,7 @@ cx1, cx2, cx3 = st.columns(3)
 with cx1:
     st.markdown("""
     **📋 Side Hustle Tax Estimator** — $12.99
-    Estimate tax liability for freelance, Etsy, Uber income.
+    Estimate tax liability for freelance, Etsy, gig income.
     [Get it →](https://clearmetric.gumroad.com/l/side-hustle-tax)
     """)
 with cx2:
